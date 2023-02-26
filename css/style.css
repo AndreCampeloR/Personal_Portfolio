@@ -92,6 +92,12 @@ section {
   font-size: 2rem;
   color: #0ef;
   margin: 3rem 1.5rem 3rem 0;
+  transition: 0.5s ease;
+}
+.home-social-media a:hover {
+  background: #0ef;
+  color: #323946;
+  box-shadow: 0 0 1rem #0ef;
 }
 
 /*# sourceMappingURL=style.css.map */
