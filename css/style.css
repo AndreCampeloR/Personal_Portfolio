@@ -289,4 +289,36 @@ span {
   cursor: pointer;
 }
 
+.footer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: #323946;
+}
+.footer-text p {
+  font-size: 1.6rem;
+}
+.footer-iconTop a {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 0.8rem;
+  background: #0ef;
+  border-radius: 0.8rem;
+  transition: 0.5s ease;
+}
+.footer-iconTop a i {
+  font-size: 2.4rem;
+  color: #323946;
+}
+.footer-iconTop a:hover {
+  box-shadow: 0 0 1rem #0ef;
+}
+
 /*# sourceMappingURL=style.css.map */
