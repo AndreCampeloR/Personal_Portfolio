@@ -19,6 +19,11 @@ body {
   color: #fff;
 }
 
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -50,6 +55,43 @@ body {
   font-size: 3.6rem;
   color: #fff;
   display: none;
+}
+
+.home {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.home-content h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.home-content h1 {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.home-content p {
+  font-size: 1.6rem;
+}
+.home-img {
+  width: 35vw;
+}
+.home-social-media a {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: 0.2rem solid #0ef;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #0ef;
+  margin: 3rem 1.5rem 3rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
