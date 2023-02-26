@@ -189,4 +189,69 @@ span {
   transform: scale(1.02);
 }
 
+.portifolio {
+  background: #323946;
+}
+.portifolio h2 {
+  margin-bottom: 4rem;
+}
+.portifolio-content {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+.portifolio-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem #1f242d;
+  overflow: hidden;
+  display: flex;
+}
+.portifolio-box img {
+  width: 100%;
+  transition: 0.5s ease;
+}
+.portifolio-box:hover img {
+  transform: scale(1.1);
+}
+.portifolio-box:hover .portifolio-layer {
+  transform: scale(1.1);
+}
+.portifolio-layer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #0ef);
+  flex-direction: column;
+  text-align: center;
+  padding: 0 4rem;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+}
+.portifolio-layer h4 {
+  font-size: 3rem;
+}
+.portifolio-layer p {
+  font-size: 1.6rem;
+  margin: 0.3rem 0 1rem;
+}
+.portifolio-layer a {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  width: 5rem;
+  height: 5rem;
+  background: #fff;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
