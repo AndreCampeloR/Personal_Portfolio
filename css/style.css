@@ -201,7 +201,7 @@ span {
   margin-bottom: 4rem;
 }
 .portifolio-content {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 2.5rem;
@@ -326,6 +326,17 @@ span {
   box-shadow: 0 0 1rem #0ef;
 }
 
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -410,7 +421,7 @@ span {
   html {
     font-size: 50%;
   }
-  .contact form form-input input {
+  .contact .form .form-input input {
     width: 100%;
   }
 }
